@@ -1,0 +1,12 @@
+.note-list-container {
+    display: flex;
+    column-gap: 40px;
+}
+
+
+.note-list-all {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    margin-top: 50px;
+}

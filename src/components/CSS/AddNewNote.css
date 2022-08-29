@@ -1,0 +1,49 @@
+.new-note {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border: solid;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 3px 5px #97e9ff;
+    row-gap: 20px;
+}
+
+.save-button {
+    display: flex;
+    align-items: center;
+    column-gap: 60px
+}
+
+#save-button {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: black;
+    border: none;
+    background-color: #61dafb;
+    cursor: pointer;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+#save-button:hover {
+    background-color: #34d1fc;
+}
+
+
+
+
+

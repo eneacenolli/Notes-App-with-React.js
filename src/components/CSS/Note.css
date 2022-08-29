@@ -1,0 +1,35 @@
+.note {
+    background-color: #61dafb;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 200px;
+    white-space: pre-line;
+}
+
+.note-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete-button {
+
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: dodgerblue;
+}
